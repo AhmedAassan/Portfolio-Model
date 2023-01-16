@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	height: 100vh;
+	background-image: url( "../photos/bg.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.daniels {
+	margin:  25px 0px 0 100px;
+	font-size: 1.7rem;
+	font-weight: bolder;
+}
+.navgation {
+	margin: 25px 0 0 300px;
+}
+.navgation ul li {
+	margin-left: 20px;
+}
+.navgation ul li a {
+	font-family: 'Poppins', sans-serif;
+	transition: all 0.4s ease-in-out;
+}
+
+.layer {
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);	
+}
+.i-am {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.i-am h1 {
+	font-family: 'Montserrat';
+    font-size: 800;
+	font-size: 3rem;
+}
+.i-am p {
+	font-size: 3rem;
+}
+.i-am p::after{
+	content: " |";
+	animation: layer 4s linear infinite;
+}
+@keyframes layer{
+	0%{content: "  D|";}
+	3%{content: "  De|";}
+	6%{content: "  Dev|";}
+	9%{content: "  Deve|";}
+	12%{content: "  Devel|";}
+	15%{content: "  Develo|";}
+	18%{content: "  Develop|";}
+	21%{content: "  Develope|";}
+	24%{content: "  Developer|";}
+	27%{content: "  Develope|";}
+	30%{content: "  Develop|";}
+	33%{content: "  Develo|";}
+	36%{content: "  Devel|";}
+	39%{content: "  Deve|";}
+	42%{content: "  Dev|";}
+	45%{content: "  De|";}
+	48%{content: "  D|";}
+	51%{content: " |";}
+	54%{content: " Ah|";}
+	57%{content: " Ahm|";}
+	60%{content: " Ahme|";}
+	63%{content: " Ahmed|";}
+	66%{content: " Ahmed H|";}
+	69%{content: " Ahmed Ha|";}
+	72%{content: " Ahmed Has|";}
+	75%{content: " Ahmed Hass|";}
+	78%{content: " Ahmed Hassa|";}
+	81%{content: " Ahmed Hassan|";}
+	84%{content: " Ahmed Hassa|";}
+	87%{content: " Ahmed Hass|";}
+	90%{content: " Ahmed Has|";}
+	91%{content: " Ahmed Ha|";}
+	92%{content: " Ahmed H|";}
+	93%{content: " Ahmed |";}
+	94%{content: " Ahmed|";}
+	95%{content: " Ahme|";}
+	96%{content: " Ahm|";}
+	97%{content: " Ah|";}
+	98%{content: " A|";}
+	100%{content: " |";}
+}
+.w-85{
+	width: 85%;
+}
+.i-am ul {
+	list-style: none;
+	margin-right: 30px;
+	display: inline-block;
+}
+.i-am ul li {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.3);
+	display: inline-block;
+	margin: 20px 0px 0px 7px;
+}
+.i-am ul li i {
+	color: white;
+	display: inline-block;
+}
+
+#about .subtitle .UX {
+	display: inline-block;
+	color: rgba(77,77,77,0.70);
+	transform: translateY(-10px);
+}
+	
+#about .subtitle p{
+	width: 600px;
+	color: rgb(110,139,146);
+}
+	
+#about .subtitle p span {
+	font-family: 'Montserrat';
+	color: rgba(0,0,0,0.53);
+}
+	
+#about .subtitle h6:first-of-type {
+	width: 550px;
+	display: block;
+	background-color: #1C1C1C;
+	padding: 2px 0px 3px 5px;
+	border-radius: 5px;
+	margin: 10px 0px 35px 0px;
+	color: white;
+	position: relative;
+	animation: mov 2s linear infinite;
+}
+#about .subtitle h6:first-of-type::after{
+	content: "95%";
+	position: absolute;
+	left: 94%;
+	
+}	
+	
+#about .subtitle .progress {
+	position: absolute;
+	height: 25px;
+	padding: 2px 0px 3px 0px;
+	width: 600px;
+}	
+
+#about .subtitle .progress-1 {
+	transform: translateX(-5px);;
+	bottom: 0.5px;
+	z-index: -1;
+	border-radius: 5px;
+}
+
+#about .subtitle h6:nth-of-type(2) {
+	width: 430px;
+	display: block;
+	background-color: #1C1C1C;
+	padding: 2px 0px 3px 5px;
+	border-radius: 5px;
+	margin: 0px 0px 35px 0px;
+	color: white;
+	position: relative;
+	animation: mov 2s linear infinite;
+}
+#about .subtitle h6:nth-of-type(2)::after{
+	content: "80%";
+	position: absolute;
+	left: 93%;
+}	
+	
+#about .subtitle .progress {
+	position: absolute;
+	height: 25px;
+	padding: 2px 0px 3px 0px;
+	width: 600px;
+}	
+
+#about .subtitle .progress-2 {
+	transform: translateX(-5px);;
+	bottom: 0.5px;
+	z-index: -1;
+	border-radius: 5px;
+}
+	
+#about .subtitle h6:last-of-type {
+	width: 520px;
+	display: block;
+	background-color: #1C1C1C;
+	padding: 2px 0px 3px 5px;
+	border-radius: 5px;
+	margin: 0px 0px 35px 0px;
+	color: white;
+	position: relative;
+	animation: mov 2s linear infinite;
+	
+}
+#about .subtitle h6:last-of-type::after{
+	content: "90%";
+	position: absolute;
+	left: 93%;
+}	
+	
+#about .subtitle .progress {
+	position: absolute;
+	height: 25px;
+	padding: 2px 0px 3px 0px;
+	width: 600px;
+}	
+
+#about .subtitle .progress-3 {
+	transform: translateX(-5px);;
+	bottom: 0.5px;
+	z-index: -1;
+	border-radius: 5px;
+}	
+	
+#about .subtitle .btn {
+	text-align: center;
+	outline: none;
+	padding: 7px 20px;
+	margin-top: 20px;
+	background-color: #1F75DB;
+	border: solid 1px black;
+}	
+
+#about .subtitle .btn-l{
+	color: white;
+	background-color: #1C1C1C;
+	transition: all 0.6s ease;
+}
+	
+#about .subtitle .btn-l:hover{
+	color: #1C1C1C;
+	background-color: white;
+}	
+	
+#about .subtitle .btn-r{
+	color: #1C1C1C;
+	background-color: white;
+	transition: all 0.6s ease;
+	padding: 7px 23px;
+}
+	
+#about .subtitle .btn-r:hover{
+	color:white;
+	background-color: #1C1C1C;
+}	
+	
+	
+#services {
+	background-color: #F7F7F7;
+}
+#services .items {
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 3px #f0f0f0;
+	border-radius: 5px;
+	padding: 50px 0px;
+	
+	margin-bottom: 30px;
+	
+}
+#services .items p {
+	width: 70%;
+	margin:20px 0px 0px 15% ;
+	color: rgba(125,125,125,0.9);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#services .items h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+#services .items .imge{
+	width: 80px;
+	height: 80px;
+	line-height: 90px;
+	border-radius: 50%;
+	background-color: #F7F7F7;
+	transform: translateY(-25px) translateX(170%);
+	transition: all 0.3s ease-in-out;
+}
+#services .items .imge i {
+	font-size: 1.7rem;
+	transition: all 0.3s ease-in-out;
+}
+#services .items:hover i {
+	color: white;
+}
+
+#services .items:hover .imge {
+	background-color: black;
+}
+
+
+#services h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+}
+
+#Portfolio h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 50px;
+}
+#Portfolio .light {
+	position: relative;
+	overflow: hidden;
+}
+#Portfolio .light:hover .DESIGN {
+	transform: translateY(0px);
+	opacity: 1
+}
+
+#Portfolio .light .DESIGN{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	opacity: 0;
+	transform: translateY(10px);
+	transition: all 0.4s ease-in-out;
+	background-color: rgba(255,255,255,0.80);
+	
+}
+
+#Portfolio .light .DESIGN h6 {
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+	transition: transform 0.4s ease-in-out;
+}
+#Portfolio .light .DESIGN ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-70%,100%);
+	transition: transform 0.4s ease-in-out;
+}
+#Portfolio .light .DESIGN ul li{
+	list-style: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#Portfolio .light .DESIGN ul li i {
+	font-size: 14px;
+	color: white;
+}
+#Portfolio .light:hover h6 {
+	transform: translate(-50%,0);
+}
+
+#Portfolio .light:hover ul{
+	transform: translate(-70%,100%);
+}
+
+.w-30{
+	width: 30%;
+}
+
+#Portfolio .nav-pills .nav-link.active{
+	background-color: transparent;
+	color: black;
+	border-bottom: solid 2px #000000;
+	border-radius: 0;
+}
+#Portfolio a {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+#Testimonials{background-color: #F7F7F7}
+#Testimonials .pho{
+	width: 100px;
+	border-radius: 100%;
+}
+
+#Testimonials .carousel-indicators li{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-indent: 0;
+	margin-left: 30px;
+}	
+.befor-footer a
+{
+	color:white;
+}
+.bg-footer
+{
+ background-color: #111111;
+ 
+}
+.btton 
+{
+	position: fixed;
+	
+	bottom: 10px;
+	width: 100%;
+	
+}		
+
+@media(min-width:768px)
+{
+  .btton
+  {
+    display: none;
+  }
+}
